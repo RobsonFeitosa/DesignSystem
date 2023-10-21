@@ -1,5 +1,11 @@
 # @lemonadetechnologies-ui/react
 
+## 1.0.1
+
+### Patch Changes
+
+- Init2
+
 ## 7.0.0
 
 ### Major Changes
