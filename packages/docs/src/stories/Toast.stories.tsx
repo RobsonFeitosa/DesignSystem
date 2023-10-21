@@ -1,6 +1,6 @@
 import type { StoryObj, Meta } from '@storybook/react'
 
-import { Toast, ToastProps } from '@lemonadetechnologies-ui/react'
+import { Toast, ToastProps } from '@lemonade-technologies-ui/react'
 
 export default {
   title: 'React/Data display/Toast',

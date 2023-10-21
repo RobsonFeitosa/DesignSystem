@@ -1,6 +1,6 @@
 import type { StoryObj, Meta } from '@storybook/react'
 
-import { Text, TextProps } from '@lemonadetechnologies-ui/react'
+import { Text, TextProps } from '@lemonade-technologies-ui/react'
 
 export default {
   title: 'React/Typografy/Text',

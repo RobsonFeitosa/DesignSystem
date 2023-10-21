@@ -1,5 +1,5 @@
 {
-  "extends": "@lemonadetechnologies-ui/ts-config/react.json",
+  "extends": "@lemonade-technologies-ui/ts-config/react.json",
   "include": ["src"]
 }
  

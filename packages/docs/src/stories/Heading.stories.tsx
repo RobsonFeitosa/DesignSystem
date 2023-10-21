@@ -1,6 +1,6 @@
 import type { StoryObj, Meta } from '@storybook/react'
 
-import { Heading, HeadingProps } from '@lemonadetechnologies-ui/react'
+import { Heading, HeadingProps } from '@lemonade-technologies-ui/react'
 
 export default {
   title: 'React/Typografy/Heading',

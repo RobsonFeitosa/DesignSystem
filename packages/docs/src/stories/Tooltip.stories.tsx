@@ -1,6 +1,6 @@
 import type { StoryObj, Meta } from '@storybook/react'
 
-import { Tooltip, TooltipProps } from '@lemonadetechnologies-ui/react'
+import { Tooltip, TooltipProps } from '@lemonade-technologies-ui/react'
 
 export default {
   title: 'React/Data display/Tooltip',

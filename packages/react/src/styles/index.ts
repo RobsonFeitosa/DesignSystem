@@ -7,7 +7,7 @@ import {
   lineHeights,
   radii,
   space,
-} from '@lemonadetechnologies-ui/tokens'
+} from '@lemonade-technologies-ui/tokens'
 import { createStitches, defaultThemeMap } from '@stitches/react'
 
 export const {

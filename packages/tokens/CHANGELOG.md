@@ -1,4 +1,10 @@
-# @lemonadetechnologies-ui/tokens
+# @lemonade-technologies-ui/tokens
+
+## 1.0.2
+
+### Patch Changes
+
+- Ini7
 
 ## 1.0.1
 

@@ -1,6 +1,6 @@
 import type { StoryObj, Meta } from '@storybook/react'
 
-import { Box, Select, SelectProps, Text } from '@lemonadetechnologies-ui/react'
+import { Box, Select, SelectProps, Text } from '@lemonade-technologies-ui/react'
 
 export default {
   title: 'React/Form/Select',

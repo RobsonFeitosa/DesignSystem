@@ -1,4 +1,10 @@
-# @lemonadetechnologies-ui/eslint-config
+# @lemonade-technologies-ui/eslint-config
+
+## 1.0.1
+
+### Patch Changes
+
+- Ini7
 
 ## 4.0.0
 

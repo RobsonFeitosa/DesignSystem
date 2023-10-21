@@ -1,4 +1,10 @@
-# @lemonadetechnologies-ui/ts-config
+# @lemonade-technologies-ui/ts-config
+
+## 1.0.1
+
+### Patch Changes
+
+- Ini7
 
 ## 4.0.0
 

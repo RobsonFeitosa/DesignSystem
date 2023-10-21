@@ -1,6 +1,6 @@
 import type { StoryObj, Meta } from '@storybook/react'
 
-import { Box, BoxProps } from '@lemonadetechnologies-ui/react'
+import { Box, BoxProps } from '@lemonade-technologies-ui/react'
 import { Grid } from '@radix-ui/themes'
 
 export default {

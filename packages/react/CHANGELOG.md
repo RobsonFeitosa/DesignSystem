@@ -1,4 +1,10 @@
-# @lemonadetechnologies-ui/react
+# @lemonade-technologies-ui/react
+
+## 1.0.5
+
+### Patch Changes
+
+- Ini7
 
 ## 1.0.4
 

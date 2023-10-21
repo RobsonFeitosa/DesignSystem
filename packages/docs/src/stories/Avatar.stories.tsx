@@ -1,6 +1,6 @@
 import type { StoryObj, Meta } from '@storybook/react'
 
-import { Avatar, AvatarProps } from '@lemonadetechnologies-ui/react'
+import { Avatar, AvatarProps } from '@lemonade-technologies-ui/react'
 
 export default {
   title: 'React/Data display/Avatar',

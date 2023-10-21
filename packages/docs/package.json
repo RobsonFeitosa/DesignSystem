@@ -1,5 +1,5 @@
 {
-  "name": "@lemonadetechnologies-ui/docs",
+  "name": "@lemonade-technologies-ui/docs",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -29,10 +29,10 @@
     "vite": "^4.4.8"
   },
   "dependencies": {
-    "@lemonadetechnologies-ui/eslint-config": "*",
-    "@lemonadetechnologies-ui/react": "*",
-    "@lemonadetechnologies-ui/tokens": "*",
-    "@lemonadetechnologies-ui/ts-config": "*",
+    "@lemonade-technologies-ui/eslint-config": "*",
+    "@lemonade-technologies-ui/react": "*",
+    "@lemonade-technologies-ui/tokens": "*",
+    "@lemonade-technologies-ui/ts-config": "*",
     "phosphor-react": "^1.4.1",
     "polished": "^4.2.2",
     "react": "^18.2.0",
