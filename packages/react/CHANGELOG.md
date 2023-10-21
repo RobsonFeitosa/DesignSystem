@@ -1,5 +1,11 @@
 # @lemonadetechnologies-ui/react
 
+## 7.0.0
+
+### Major Changes
+
+- Init
+
 ## 6.0.0
 
 ### Major Changes
