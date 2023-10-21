@@ -1,6 +1,6 @@
 {
-  "name": "@lemonade-technologies-ui/ts-config",
-  "version": "1.0.1",
+  "name": "@lemonade-technologies-hub-ui/ts-config",
+  "version": "1.0.2",
   "license": "MIT",
   "private": true
 }

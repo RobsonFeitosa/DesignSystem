@@ -5,7 +5,7 @@ import {
   SelectAdvanced,
   SelectAdvancedProps,
   Text,
-} from '@lemonade-technologies-ui/react'
+} from '@lemonade-technologies-hub-ui/react'
 
 const optionsMock = [
   { value: 'apple', label: 'Apple' },

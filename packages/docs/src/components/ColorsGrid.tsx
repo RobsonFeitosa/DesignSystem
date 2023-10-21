@@ -1,4 +1,4 @@
-import { colors, colorsContrast } from '@lemonade-technologies-ui/tokens'
+import { colors, colorsContrast } from '@lemonade-technologies-hub-ui/tokens'
 import { getContrast } from 'polished'
   
 type Colors = typeof colors;

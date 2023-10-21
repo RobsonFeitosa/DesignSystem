@@ -1,4 +1,4 @@
 {
-  "extends": "@lemonade-technologies-ui/ts-config/base.json",
+  "extends": "@lemonade-technologies-hub-ui/ts-config/base.json",
   "include": ["src"]
 }

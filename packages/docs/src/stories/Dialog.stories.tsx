@@ -8,7 +8,7 @@ import {
   DialogTrigger,
   DialogClose,
   Text,
-} from '@lemonade-technologies-ui/react'
+} from '@lemonade-technologies-hub-ui/react'
 import React, { useRef } from 'react'
 export default {
   title: 'React/Data display/Dialog',

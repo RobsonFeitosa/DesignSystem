@@ -7,5 +7,5 @@
   "access": "public",
   "baseBranch": "main",
   "updateInternalDependencies": "patch",
-  "ignore": ["@lemonade-technologies-ui/docs"]
+  "ignore": ["@lemonade-technologies-hub-ui/docs"]
 }

@@ -1,6 +1,6 @@
 {
-  "name": "@lemonade-technologies-ui/react",
-  "version": "1.0.6",
+  "name": "@lemonade-technologies-hub-ui/react",
+  "version": "1.0.7",
   "description": "",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -17,9 +17,9 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "@lemonade-technologies-ui/eslint-config": "*",
-    "@lemonade-technologies-ui/tokens": "*",
-    "@lemonade-technologies-ui/ts-config": "*",
+    "@lemonade-technologies-hub-ui/eslint-config": "*",
+    "@lemonade-technologies-hub-ui/tokens": "*",
+    "@lemonade-technologies-hub-ui/ts-config": "*",
     "@types/react": "^18.2.18",
     "@types/react-dom": "^18.2.7",
     "@types/react-icons": "^3.0.0",

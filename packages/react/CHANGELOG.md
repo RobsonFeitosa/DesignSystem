@@ -1,4 +1,10 @@
-# @lemonade-technologies-ui/react
+# @lemonade-technologies-hub-ui/react
+
+## 1.0.7
+
+### Patch Changes
+
+- T1
 
 ## 1.0.6
 

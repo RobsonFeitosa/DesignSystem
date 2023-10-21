@@ -1,6 +1,6 @@
 import type { StoryObj, Meta } from '@storybook/react'
 
-import { Box, Text, TextArea, TextAreaProps } from '@lemonade-technologies-ui/react'
+import { Box, Text, TextArea, TextAreaProps } from '@lemonade-technologies-hub-ui/react'
 
 export default {
   title: 'React/Form/Text Area',

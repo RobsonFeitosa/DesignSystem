@@ -1,4 +1,10 @@
-# @lemonade-technologies-ui/ts-config
+# @lemonade-technologies-hub-ui/ts-config
+
+## 1.0.2
+
+### Patch Changes
+
+- T1
 
 ## 1.0.1
 

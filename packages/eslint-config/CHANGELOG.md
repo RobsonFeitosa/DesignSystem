@@ -1,4 +1,10 @@
-# @lemonade-technologies-ui/eslint-config
+# @lemonade-technologies-hub-ui/eslint-config
+
+## 1.0.2
+
+### Patch Changes
+
+- T1
 
 ## 1.0.1
 

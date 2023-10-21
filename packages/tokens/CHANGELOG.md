@@ -1,4 +1,10 @@
-# @lemonade-technologies-ui/tokens
+# @lemonade-technologies-hub-ui/tokens
+
+## 1.0.3
+
+### Patch Changes
+
+- T1
 
 ## 1.0.2
 
