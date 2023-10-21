@@ -1,5 +1,11 @@
 # @lemonadetechnologies-ui/react
 
+## 6.0.0
+
+### Major Changes
+
+- init
+
 ## 5.1.5
 
 ### Patch Changes

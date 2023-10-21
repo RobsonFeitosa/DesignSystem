@@ -1,5 +1,11 @@
 # @lemonadetechnologies-ui/tokens
 
+## 5.0.0
+
+### Major Changes
+
+- init
+
 ## 4.0.2
 
 ### Patch Changes
