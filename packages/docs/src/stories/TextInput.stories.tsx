@@ -1,6 +1,11 @@
 import type { StoryObj, Meta } from '@storybook/react'
 
-import { Box, Text, TextInput, TextInputProps } from '@lemonade-technologies-hub-ui/react'
+import {
+  Box,
+  Text,
+  TextInput,
+  TextInputProps,
+} from '@lemonade-technologies-hub-ui/react'
 import { FaLeaf } from 'react-icons/fa'
 
 export default {

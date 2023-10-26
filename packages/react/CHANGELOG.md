@@ -1,5 +1,11 @@
 # @lemonade-technologies-hub-ui/react
 
+## 1.1.0
+
+### Minor Changes
+
+- feat: InputMask component
+
 ## 1.0.7
 
 ### Patch Changes

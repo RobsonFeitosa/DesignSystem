@@ -14,6 +14,7 @@ export * from './components/Select'
 export * from './components/Box'
 export * from './components/Grid'
 export * from './components/Dialog'
+export * from './components/TextInputMask'
 export {
   DialogRoot,
   DialogTrigger,
@@ -21,5 +22,3 @@ export {
 } from './components/Dialog/styles'
 
 export * from './styles'
- 
-//sdf
