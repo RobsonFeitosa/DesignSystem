@@ -3,6 +3,7 @@ import { ErrorContainer, TextInputContainer } from '../TextInput/styles'
 import { IconProps, WarningCircle } from 'phosphor-react'
 import { IconBaseProps } from 'react-icons'
 import { InputMask } from './styles'
+import { ElementRef, forwardRef } from 'react'
 
 export interface TextInputMaskProps extends Props {
   mask: string
@@ -10,16 +11,15 @@ export interface TextInputMaskProps extends Props {
   startIcon?: React.ComponentType<IconProps | IconBaseProps>
 }
 
-export const TextInputMask = ({
-  startIcon: StartIcon,
-  error,
-  ...props
-}: TextInputMaskProps) => {
+export const TextInputMask = forwardRef<
+  ElementRef<typeof InputMask>,
+  TextInputMaskProps
+>(({ startIcon: StartIcon, error, ...props }: TextInputMaskProps, ref) => {
   return (
     <TextInputContainer error={!!error}>
       {StartIcon && <StartIcon />}
 
-      <InputMask {...props} />
+      <InputMask ref={ref} {...props} />
 
       {error && (
         <ErrorContainer title={error}>
@@ -28,6 +28,6 @@ export const TextInputMask = ({
       )}
     </TextInputContainer>
   )
-}
+})
 
 TextInputMask.displayName = 'TextInputMask'

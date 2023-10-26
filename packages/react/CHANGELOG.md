@@ -1,5 +1,11 @@
 # @lemonade-technologies-hub-ui/react
 
+## 1.2.0
+
+### Minor Changes
+
+- fix: ref text input mask
+
 ## 1.1.0
 
 ### Minor Changes
