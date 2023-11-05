@@ -9,7 +9,7 @@ import {
   DialogClose,
   Text,
 } from '@lemonade-technologies-hub-ui/react'
-import React, { useRef } from 'react'
+import React from 'react'
 export default {
   title: 'React/Data display/Dialog',
   component: Dialog,

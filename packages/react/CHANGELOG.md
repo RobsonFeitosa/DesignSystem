@@ -1,5 +1,11 @@
 # @lemonade-technologies-hub-ui/react
 
+## 1.3.0
+
+### Minor Changes
+
+- feat: collapsible stories and component
+
 ## 1.2.0
 
 ### Minor Changes

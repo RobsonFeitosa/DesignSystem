@@ -45,6 +45,11 @@ export const Disabled: StoryObj<TextInputProps> = {
     disabled: true,
   },
 }
+export const SizeSmall: StoryObj<TextInputProps> = {
+  args: {
+    size: 'sm',
+  },
+}
 
 export const WithIcon: StoryObj<TextInputProps> = {
   args: {
