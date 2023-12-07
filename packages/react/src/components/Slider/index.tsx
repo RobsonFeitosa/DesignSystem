@@ -1,6 +1,7 @@
+import { ComponentProps } from 'react'
 import { SliderRange, SliderRoot, SliderThumb, SliderTrack } from './styles'
 
-export interface SliderProps {
+export interface SliderProps extends ComponentProps<typeof SliderRoot> {
   defaultValue: number[]
   max: number
   step: number
