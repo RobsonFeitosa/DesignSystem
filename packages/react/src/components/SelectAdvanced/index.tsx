@@ -13,9 +13,15 @@ export interface SelectAdvancedProps extends ReactSelectProps {
   name: string
   error?: string
   isChangeDoneIcon?: Option[] | null | undefined
+  size?: 'sm'
 }
 
-export function SelectAdvanced({ name, error, ...props }: SelectAdvancedProps) {
+export function SelectAdvanced({
+  name,
+  size,
+  error,
+  ...props
+}: SelectAdvancedProps) {
   const colourStyles = {
     container: (styles: any) => {
       return {
@@ -38,10 +44,10 @@ export function SelectAdvanced({ name, error, ...props }: SelectAdvancedProps) {
       backgroundColor: 'transparent',
       color: '#fff',
       padding: 0,
-      paddingLeft: 15,
-      paddingRight: 15,
-      height: props.isMulti ? 'auto' : '48px',
-      minHeight: '46px',
+      paddingLeft: size === 'sm' ? 8 : 15,
+      paddingRight: size === 'sm' ? 8 : 15,
+      height: props.isMulti ? 'auto' : size === 'sm' ? '35px' : '48px',
+      minHeight: size === 'sm' ? '35px' : '46px',
     }),
     dropdownIndicator: (styles: any, state: any) => {
       const { isChangeDoneIcon } = props
@@ -95,7 +101,7 @@ export function SelectAdvanced({ name, error, ...props }: SelectAdvancedProps) {
       }
     },
     indicatorSeparator: (styles: any) => {
-      return { ...styles, opacity: 0.2, marginRight: 12 }
+      return { ...styles, opacity: 0.2, marginRight: size === 'sm' ? 4 : 12 }
     },
     menu: (styles: any) => {
       return {

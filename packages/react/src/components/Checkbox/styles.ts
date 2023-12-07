@@ -24,6 +24,19 @@ export const CheckboxContainer = styled(Checkbox.Root, {
     border: '2px solid $alosix300',
     color: '$alosixG200',
   },
+
+  variants: {
+    format: {
+      square: {},
+      circle: {
+        borderRadius: '$full',
+
+        svg: {
+          width: '12px',
+        },
+      },
+    },
+  },
 })
 
 const slideIn = keyframes({

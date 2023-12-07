@@ -63,6 +63,13 @@ export const Single: StoryObj<SelectAdvancedProps> = {
   },
 }
 
+export const Small: StoryObj<SelectAdvancedProps> = {
+  args: {
+    placeholder: 'Selecione',
+    size: 'sm',
+  },
+}
+
 export const SingleError: StoryObj<SelectAdvancedProps> = {
   args: {
     error: 'errorru',
