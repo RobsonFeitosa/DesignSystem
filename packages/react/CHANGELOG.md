@@ -1,5 +1,11 @@
 # @lemonade-technologies-hub-ui/react
 
+## 1.4.3
+
+### Patch Changes
+
+- 26eff4e: feat: small select advanced; circle checkbox
+
 ## 1.4.2
 
 ### Patch Changes
