@@ -1,11 +1,18 @@
 import type { StoryObj, Meta } from '@storybook/react'
 
-import { Box, Select, SelectProps, Text } from '@lemonade-technologies-hub-ui/react'
+import {
+  Box,
+  Select,
+  SelectProps,
+  Text,
+} from '@lemonade-technologies-hub-ui/react'
 
 export default {
   title: 'React/Form/Select',
   component: Select,
-  args: {},
+  args: {
+    placeholder: 'Selecione um item',
+  },
   tags: ['autodocs'],
 } as Meta<SelectProps>
 

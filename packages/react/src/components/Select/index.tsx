@@ -1,5 +1,11 @@
 import React, { ComponentProps, ElementRef, forwardRef } from 'react'
-import { ArrowDown, ArrowUp, Check, CheckCircle } from 'phosphor-react'
+import {
+  ArrowDown,
+  ArrowUp,
+  CaretDown,
+  Check,
+  CheckCircle,
+} from 'phosphor-react'
 import {
   SelectContainer,
   SelectContent,
@@ -17,19 +23,29 @@ import {
 } from './styles'
 import { SelectItemIndicator } from '@radix-ui/react-select'
 
-export type SelectProps = ComponentProps<typeof SelectContainer>
+interface Option {
+  label: string
+  value: string
+}
+export interface SelectProps extends ComponentProps<typeof SelectContainer> {
+  placeholder: string
+  options: Option[]
+  default: Option
+}
 
 export function Select(props: SelectProps) {
+  const { placeholder } = props
+
   return (
-    <SelectContainer {...props}>
+    <SelectContainer {...props} open={true}>
       <SelectTrigger className="SelectTrigger" aria-label="Food">
-        <SelectValue placeholder="Select a fruit…" />
+        <SelectValue placeholder={placeholder} />
         <SelectIcon className="SelectIcon">
-          <ArrowDown />
+          <CaretDown />
         </SelectIcon>
       </SelectTrigger>
       <SelectPortal>
-        <SelectContent className="SelectContent">
+        <SelectContent className="SelectContent" position="popper">
           <SelectScrollUpButton className="SelectScrollButton">
             <ArrowUp />
           </SelectScrollUpButton>

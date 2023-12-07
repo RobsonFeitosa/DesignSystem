@@ -20,7 +20,7 @@ export default {
       },
     },
     size: {
-      options: ['sm', 'md', 'lg'],
+      options: ['sm', 'md', 'lg', 'xs'],
       control: {
         type: 'inline-radio',
       },
@@ -55,6 +55,12 @@ export const Tertiary: StoryObj<ButtonProps> = {
 export const Small: StoryObj<ButtonProps> = {
   args: {
     size: 'sm',
+  },
+}
+
+export const MoreSmall: StoryObj<ButtonProps> = {
+  args: {
+    size: 'xs',
   },
 }
 

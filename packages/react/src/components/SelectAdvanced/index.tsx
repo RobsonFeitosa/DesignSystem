@@ -110,6 +110,7 @@ export function SelectAdvanced({ name, error, ...props }: SelectAdvancedProps) {
     <SelectContainer isErrored={!!error} isNotMulti={!props.isMulti}>
       <ReactSelect
         name={name}
+        isClearable
         components={{
           DropdownIndicator: (rest) => DropdownIndicator(rest, props.isMulti),
         }}

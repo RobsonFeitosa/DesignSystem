@@ -16,6 +16,7 @@ export * from './components/Grid'
 export * from './components/Dialog'
 export * from './components/TextInputMask'
 export * from './components/Collapsible'
+export * from './components/Slider'
 export {
   DialogRoot,
   DialogTrigger,
