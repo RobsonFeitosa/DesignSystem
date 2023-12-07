@@ -4,7 +4,7 @@ import { ComponentProps } from 'react'
 
 export interface CheckboxProps
   extends ComponentProps<typeof CheckboxContainer> {
-  format: 'square' | 'circle'
+  format?: 'square' | 'circle'
 }
 
 export function Checkbox(props: CheckboxProps) {
