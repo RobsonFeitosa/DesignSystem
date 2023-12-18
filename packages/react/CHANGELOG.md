@@ -1,5 +1,11 @@
 # @lemonade-technologies-hub-ui/react
 
+## 1.4.5
+
+### Patch Changes
+
+- feat: size avatar
+
 ## 1.4.4
 
 ### Patch Changes

@@ -20,6 +20,12 @@ export default {
 
 export const Primary: StoryObj<AvatarProps> = {}
 
+export const Small: StoryObj<AvatarProps> = {
+  args: {
+    size: 'sm',
+  },
+}
+
 export const WithFallback: StoryObj<AvatarProps> = {
   args: {
     src: undefined,
