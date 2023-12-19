@@ -10,7 +10,7 @@ export default {
     max: 4500,
     step: 1,
     onValueChange: (data: any) => console.log(data),
-    // onChange: (data: any) => console.log(data),
+    hasFullOut: false,
   },
   decorators: [
     (Story) => {
@@ -29,3 +29,10 @@ export default {
 } as Meta<SliderProps>
 
 export const Primary: StoryObj<SliderProps> = {}
+
+export const TwoHandle: StoryObj<SliderProps> = {
+  args: {
+    defaultValue: [50, 440],
+    hasFullOut: true,
+  },
+}

@@ -1,5 +1,11 @@
 # @lemonade-technologies-hub-ui/react
 
+## 1.4.6
+
+### Patch Changes
+
+- feat: multiples handles slider
+
 ## 1.4.5
 
 ### Patch Changes

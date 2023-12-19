@@ -5,6 +5,8 @@ export interface SliderProps extends ComponentProps<typeof SliderRoot> {
   defaultValue: number[]
   max: number
   step: number
+  hasFullOut?: boolean
+  labels?: string[]
 }
 
 export function Slider(props: SliderProps) {
@@ -13,7 +15,12 @@ export function Slider(props: SliderProps) {
       <SliderTrack>
         <SliderRange />
       </SliderTrack>
-      <SliderThumb aria-label="Volume" />
+      {props.defaultValue.map((item: number, index) => (
+        <SliderThumb
+          key={item}
+          aria-label={props.labels ? props.labels[index] : 'volume'}
+        />
+      ))}
     </SliderRoot>
   )
 }
