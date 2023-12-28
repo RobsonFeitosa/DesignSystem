@@ -76,6 +76,12 @@ export const SingleError: StoryObj<SelectAdvancedProps> = {
   },
 }
 
+export const RemoveIsClearable: StoryObj<SelectAdvancedProps> = {
+  args: {
+    isClearable: false,
+  },
+}
+
 export const Multiple: StoryObj<SelectAdvancedProps> = {
   args: {
     isMulti: true,

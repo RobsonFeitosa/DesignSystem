@@ -1,5 +1,11 @@
 # @lemonade-technologies-hub-ui/react
 
+## 1.4.7
+
+### Patch Changes
+
+- is not clearable
+
 ## 1.4.6
 
 ### Patch Changes
