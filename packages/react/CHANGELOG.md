@@ -1,5 +1,11 @@
 # @lemonade-technologies-hub-ui/react
 
+## 1.4.8
+
+### Patch Changes
+
+- change dialog widht
+
 ## 1.4.7
 
 ### Patch Changes
