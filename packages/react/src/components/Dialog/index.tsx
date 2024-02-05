@@ -12,7 +12,7 @@ import {
 export interface DialogProps {
   children: ReactNode
   title: string
-  borderRadius: number
+  borderRadius?: number
   container?: HTMLElement | undefined | null
   offClosed?: boolean
   mode?: 'ligth' | 'dark'
