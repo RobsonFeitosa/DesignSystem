@@ -1,5 +1,11 @@
 # @lemonade-technologies-hub-ui/react
 
+## 1.5.0
+
+### Minor Changes
+
+- feat: dialog radius border and mode dark
+
 ## 1.4.8
 
 ### Patch Changes

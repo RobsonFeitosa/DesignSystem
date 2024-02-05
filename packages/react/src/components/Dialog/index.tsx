@@ -12,20 +12,24 @@ import {
 export interface DialogProps {
   children: ReactNode
   title: string
+  borderRadius: number
   container?: HTMLElement | undefined | null
   offClosed?: boolean
+  mode?: 'ligth' | 'dark'
 }
 
 export function Dialog({
   children,
   title,
   container,
+  borderRadius,
   offClosed = false,
+  mode,
 }: DialogProps) {
   return (
     <DialogPortal container={container}>
       <DialogOverlay />
-      <DialogContent>
+      <DialogContent mode={mode ?? 'ligth'} style={{ borderRadius }}>
         <DialogTitle>{title}</DialogTitle>
 
         {!offClosed && (

@@ -24,6 +24,15 @@ export const DialogContent = styled(Dialog.Content, {
   left: '50%',
   transform: 'translate(-50%, -50%)',
   zIndex: 999999999,
+
+  variants: {
+    mode: {
+      dark: {
+        background: '#171717',
+      },
+      ligth: {},
+    },
+  },
 })
 
 export const DialogTrigger = styled(Dialog.Trigger, {})
