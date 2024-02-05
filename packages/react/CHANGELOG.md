@@ -1,5 +1,12 @@
 # @lemonade-technologies-hub-ui/react
 
+## 1.5.1
+
+### Patch Changes
+
+- fixed push
+- 4854acc: optional border radius dialog
+
 ## 1.5.0
 
 ### Minor Changes

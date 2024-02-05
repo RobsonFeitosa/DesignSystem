@@ -1,5 +1,5 @@
 ## Commit
-### How to commit for production
+### How to commit for production2
 
 - Create changeset mode
 ```bash

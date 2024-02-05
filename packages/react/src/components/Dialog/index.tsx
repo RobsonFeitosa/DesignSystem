@@ -18,6 +18,8 @@ export interface DialogProps {
   mode?: 'ligth' | 'dark'
 }
 
+// mode
+
 export function Dialog({
   children,
   title,
