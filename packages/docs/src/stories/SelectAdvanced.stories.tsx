@@ -7,7 +7,7 @@ import {
   Text,
 } from '@lemonade-technologies-hub-ui/react'
 
-const optionsMock = [
+export const optionsMock = [
   { value: 'apple', label: 'Apple' },
   { value: 'banana', label: 'Banana' },
   { value: 'watermelon', label: 'Watermelon' },
@@ -26,8 +26,6 @@ const optionsMock = [
   { value: 'okra', label: 'Okra' },
   { value: 'basil', label: 'Basil' },
   { value: 'jackfruit', label: 'Jackfruit' },
-  { value: 'grape', label: 'Grape' },
-  { value: 'grape', label: 'Grape' },
 ]
 
 export default {

@@ -1,5 +1,11 @@
 # @lemonade-technologies-hub-ui/react
 
+## 1.5.2
+
+### Patch Changes
+
+- chore: formatting select
+
 ## 1.5.1
 
 ### Patch Changes

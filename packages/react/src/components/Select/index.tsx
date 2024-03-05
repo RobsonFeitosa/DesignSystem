@@ -1,13 +1,6 @@
-import React, { ComponentProps, ElementRef, forwardRef } from 'react'
+import { ComponentProps, ElementRef, forwardRef } from 'react'
+import { ArrowDown, ArrowUp, CaretDown, CheckCircle } from 'phosphor-react'
 import {
-  ArrowDown,
-  ArrowUp,
-  CaretDown,
-  Check,
-  CheckCircle,
-} from 'phosphor-react'
-import {
-  SelectContainer,
   SelectContent,
   SelectGroup,
   SelectIcon,
@@ -15,6 +8,7 @@ import {
   SelectItemText,
   SelectLabel,
   SelectPortal,
+  SelectRoot,
   SelectScrollDownButton,
   SelectScrollUpButton,
   SelectTrigger,
@@ -27,18 +21,24 @@ interface Option {
   label: string
   value: string
 }
-export interface SelectProps extends ComponentProps<typeof SelectContainer> {
+export interface SelectProps extends ComponentProps<typeof SelectRoot> {
   placeholder: string
   options: Option[]
   default: Option
+  title: string
+  isClean: boolean
 }
 
 export function Select(props: SelectProps) {
   const { placeholder } = props
 
   return (
-    <SelectContainer {...props} open={true}>
-      <SelectTrigger className="SelectTrigger" aria-label="Food">
+    <SelectRoot {...props}>
+      <SelectTrigger
+        className="SelectTrigger"
+        onClean={props.isClean}
+        aria-label={props.title}
+      >
         <SelectValue placeholder={placeholder} />
         <SelectIcon className="SelectIcon">
           <CaretDown />
@@ -51,11 +51,13 @@ export function Select(props: SelectProps) {
           </SelectScrollUpButton>
           <SelectViewport className="SelectViewport">
             <SelectGroup>
-              <SelectLabel className="SelectLabel">Fruits</SelectLabel>
-              <SelectItem value="beef">Beef</SelectItem>
-              <SelectItem value="chicken">Chicken</SelectItem>
-              <SelectItem value="lamb">Lamb</SelectItem>
-              <SelectItem value="pork">Pork</SelectItem>
+              <SelectLabel className="SelectLabel">{props.title}</SelectLabel>
+              <SelectItem value="">Selecionar todos</SelectItem>
+              {props.options?.map((opt) => (
+                <SelectItem key={opt.value} value={opt.value}>
+                  {opt.label}
+                </SelectItem>
+              ))}
             </SelectGroup>
           </SelectViewport>
           <SelectScrollDownButton className="SelectScrollButton">
@@ -63,7 +65,7 @@ export function Select(props: SelectProps) {
           </SelectScrollDownButton>
         </SelectContent>
       </SelectPortal>
-    </SelectContainer>
+    </SelectRoot>
   )
 }
 
