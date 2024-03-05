@@ -25,8 +25,8 @@ export interface SelectProps extends ComponentProps<typeof SelectRoot> {
   placeholder: string
   options: Option[]
   default: Option
-  title: string
-  isClean: boolean
+  title?: string
+  isClean?: boolean
 }
 
 export function Select(props: SelectProps) {
@@ -36,7 +36,7 @@ export function Select(props: SelectProps) {
     <SelectRoot {...props}>
       <SelectTrigger
         className="SelectTrigger"
-        onClean={props.isClean}
+        isClean={props.isClean}
         aria-label={props.title}
       >
         <SelectValue placeholder={placeholder} />

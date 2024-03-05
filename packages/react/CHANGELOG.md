@@ -1,5 +1,11 @@
 # @lemonade-technologies-hub-ui/react
 
+## 1.5.3
+
+### Patch Changes
+
+- chore: fields option select
+
 ## 1.5.2
 
 ### Patch Changes

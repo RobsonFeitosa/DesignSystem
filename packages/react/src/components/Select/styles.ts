@@ -48,7 +48,7 @@ export const SelectTrigger = styled(Select.Trigger, {
   position: 'relative',
 
   variants: {
-    onClean: {
+    isClean: {
       true: {
         border: 0,
       },
