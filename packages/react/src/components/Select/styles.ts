@@ -56,7 +56,9 @@ export const SelectTrigger = styled(Select.Trigger, {
   },
 })
 
-export const SelectValue = styled(Select.Value, {})
+export const SelectValue = styled(Select.Value, {
+  textWrap: 'nowrap',
+})
 
 export const SelectIcon = styled(Select.Icon, {})
 export const SelectPortal = styled(Select.Portal, {

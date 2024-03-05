@@ -7,7 +7,7 @@ export default {
   title: 'React/Form/Select',
   component: Select,
   args: {
-    placeholder: 'Selecione um item',
+    placeholder: 'Todas as categorias',
     options: optionsMock,
   },
   tags: ['autodocs'],
@@ -20,5 +20,7 @@ export const Primary: StoryObj<SelectProps> = {
 export const Clean: StoryObj<SelectProps> = {
   args: {
     isClean: true,
+    placeholder: 'Todas as categorias',
+    title: 'Todas as categorias',
   },
 }

@@ -1,5 +1,11 @@
 # @lemonade-technologies-hub-ui/react
 
+## 1.5.4
+
+### Patch Changes
+
+- chore: default fields select
+
 ## 1.5.3
 
 ### Patch Changes

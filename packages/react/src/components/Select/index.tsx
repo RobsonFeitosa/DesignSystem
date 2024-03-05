@@ -51,8 +51,7 @@ export function Select(props: SelectProps) {
           </SelectScrollUpButton>
           <SelectViewport className="SelectViewport">
             <SelectGroup>
-              <SelectLabel className="SelectLabel">{props.title}</SelectLabel>
-              <SelectItem value="">Selecionar todos</SelectItem>
+              <SelectItem value={'null'}>{props.title}</SelectItem>
               {props.options?.map((opt) => (
                 <SelectItem key={opt.value} value={opt.value}>
                   {opt.label}
