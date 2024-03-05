@@ -6,7 +6,6 @@ import {
   SelectIcon,
   SelectItemContainer,
   SelectItemText,
-  SelectLabel,
   SelectPortal,
   SelectRoot,
   SelectScrollDownButton,
@@ -24,7 +23,6 @@ interface Option {
 export interface SelectProps extends ComponentProps<typeof SelectRoot> {
   placeholder: string
   options: Option[]
-  default: Option
   title?: string
   isClean?: boolean
 }

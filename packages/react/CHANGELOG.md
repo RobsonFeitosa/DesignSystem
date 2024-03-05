@@ -1,5 +1,11 @@
 # @lemonade-technologies-hub-ui/react
 
+## 1.5.7
+
+### Patch Changes
+
+- chore: default item seledct
+
 ## 1.5.6
 
 ### Patch Changes

@@ -24,3 +24,11 @@ export const Clean: StoryObj<SelectProps> = {
     title: 'Todas as categorias',
   },
 }
+
+export const Default: StoryObj<SelectProps> = {
+  args: {
+    defaultValue: 'apple',
+    placeholder: 'Todas as categorias',
+    title: 'Todas as categorias',
+  },
+}
