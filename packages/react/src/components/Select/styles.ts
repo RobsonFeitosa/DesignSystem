@@ -53,6 +53,7 @@ export const SelectTrigger = styled(Select.Trigger, {
     isClean: {
       true: {
         border: 0,
+        height: '40px',
       },
     },
   },
