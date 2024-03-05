@@ -1,5 +1,11 @@
 # @lemonade-technologies-hub-ui/react
 
+## 1.5.5
+
+### Patch Changes
+
+- chore: text wrap select
+
 ## 1.5.4
 
 ### Patch Changes

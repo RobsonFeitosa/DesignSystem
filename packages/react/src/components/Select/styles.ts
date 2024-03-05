@@ -16,7 +16,6 @@ export const SelectRoot = styled(Select.Root, {
   '&:[data-state="checked"]': {
     backgroundColor: '$alosix300',
   },
-  background: '#f0f',
   height: '$12',
 })
 
@@ -35,6 +34,9 @@ export const SelectTrigger = styled(Select.Trigger, {
     true: {
       borderColor: '$alosixR200',
     },
+  },
+  span: {
+    textWrap: 'nowrap',
   },
   size: {
     sm: {
